@@ -53,3 +53,78 @@ body {
   padding: 20px;
   color: aliceblue;
 }
+
+.jacket {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e5e5;
+  height: 400px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.imgbox {
+  background-image: url(/img/jakke.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #aac7c7;
+  height: 300px;
+  width: 270px;
+  margin: 5px 15px;
+}
+
+.textbox {
+  margin-bottom: 5px;
+  margin-left: 15px;
+}
+
+.textbox h3 {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.textbox h5 {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.cbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin: 0px 10px;
+}
+
+.blue {
+  background-color: blue;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.yellow {
+  width: 15px;
+  height: 15px;
+  background-color: yellow;
+  margin-right: 10px;
+}
+.red {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  margin-right: 10px;
+}
+.black {
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 767px) {
+  .alljackets {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 20px;
+  }
+}
